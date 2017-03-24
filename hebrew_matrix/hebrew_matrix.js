@@ -22,12 +22,9 @@ function setup() {
 
 	textFont("Consolas");
 	textSize(symbolSize);
-	setTimeout(playSong, 500);
-}
-
-function playSong() {
 	song.play();
 }
+
 
 
 function draw() {

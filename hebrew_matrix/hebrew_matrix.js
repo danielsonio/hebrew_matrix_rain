@@ -3,8 +3,10 @@ var streams = [];
 var fadeInterval = 1.6;
 var song;
 
+function preload() {
+	song = loadSound("69547__jpors__sjofar.wav");	
+}
 function setup() {
-	song = loadSound("69547__jpors__sjofar.wav");
 	createCanvas(
 		window.innerWidth,
 		window.innerHeight
